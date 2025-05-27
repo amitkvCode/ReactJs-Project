@@ -10,8 +10,8 @@ function ClockBody() {
 
   return (
     <div>
-      <p>This is the clock that shows the time in Bharat at all times.</p>
-      <p>
+      <p className='lead'>This is the clock that shows the time in Bharat at all times.</p>
+      <p  className='lead'>
         This is current time: {currentTime.toLocaleTimeString()} - {currentTime.toLocaleDateString()}
       </p>
     </div>
